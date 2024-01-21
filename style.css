@@ -50,10 +50,11 @@ p {
 .hero-div,
 .info-div,
 .quote-div,
-.modal-div,
+.careers-div,
 .cards-div,
 .card,
-.info-text {
+.info-text,
+.container {
   display: flex;
   justify-content: center;
   gap: 16px;
@@ -67,4 +68,9 @@ p {
 
 .card {
   width: 200px;
+}
+
+.quote-div {
+  flex-direction: column;
+  gap: 0px;
 }
