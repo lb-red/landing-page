@@ -21,6 +21,16 @@ a {
   text-decoration: none;
 }
 
+sup { vertical-align: top; font-size: 0.6em; }
+
+p {
+  text-align: center;
+}
+
+.hero-subtext {
+  text-align: justify;
+}
+
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -37,7 +47,24 @@ a {
   justify-content: flex-end;
 }
 
-.hero-div {
+.hero-div,
+.info-div,
+.quote-div,
+.modal-div,
+.cards-div,
+.card,
+.info-text {
   display: flex;
   justify-content: center;
+  gap: 16px;
+}
+
+.info-div,
+.card {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card {
+  width: 200px;
 }
