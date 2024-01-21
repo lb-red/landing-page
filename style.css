@@ -1,5 +1,8 @@
 * {
-  border: dashed solid red;
+  border: dashed 1px rgba(168, 53, 0, 0.664);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -7,4 +10,34 @@ body {
   font-size: 18px;
   display: flex;
   flex-direction: column;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.left-header,
+.link-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.hero-div {
+  display: flex;
+  justify-content: center;
 }
