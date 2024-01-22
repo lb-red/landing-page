@@ -111,8 +111,14 @@ button {
   background-color: #be92cc;
 }
 
-.header a {
+.header a,
+button {
   color: #e6e6e6;
+}
+
+.left-header a {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .left-hero .hero{
@@ -120,6 +126,10 @@ button {
   color: #eeeeee;
   font-weight: 1000;
   text-align: left;
+}
+
+button {
+  font-weight: 500;
 }
 
 .left-hero .hero-subtext {
