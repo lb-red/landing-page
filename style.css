@@ -36,9 +36,14 @@ p {
 
 .header {
   display: flex;
+  justify-content: center;
+}
+
+.header-inner {
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 16px;
+  flex: 1 1 auto;
 }
 
 .left-header,
@@ -55,16 +60,27 @@ p {
 .quote-div,
 .careers-div,
 .cards-div,
+.left-hero,
 .card,
-.info-text,
 .container {
   display: flex;
   justify-content: center;
   gap: 16px;
 }
 
+.left-hero {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right-hero {
+  display: flex;
+  align-items: center;
+}
+
 .info-div,
-.card {
+.card,
+.quote-div {
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -160,4 +176,37 @@ strong {
 .footer {
   color: #e6e6e6;
   text-align: center;
+}
+
+.header-inner {
+  max-width: 1400px;
+  padding: 16px;
+}
+
+.hero-div {
+  min-height: 400px;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 24px;
+}
+
+.left-hero {
+  max-width: 500px;
+  gap: 10px;
+  flex: 0 1 auto;
+}
+
+.info-div {
+  min-height: 450px;
+  justify-content: flex-start;
+  padding: 32px;
+}
+
+.info-text {
+  text-align: center;
+}
+
+.cards-div {
+  flex-wrap: wrap;
+  gap: 40px;
 }
