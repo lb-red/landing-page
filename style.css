@@ -91,7 +91,9 @@ p {
 }
 
 .quote-div {
+  min-height: 400px;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -236,10 +238,10 @@ strong {
 }
 
 .careers-div {
-  min-height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 300px;
 }
 
 .container {
@@ -250,10 +252,6 @@ strong {
   flex-wrap: wrap;
   padding: 32px;
   border-radius: 16px;
-}
-
-.careers-div {
-  padding: 8px;
 }
 
 .career-container {
