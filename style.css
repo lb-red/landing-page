@@ -91,7 +91,7 @@ p {
 
 .quote-div {
   flex-direction: column;
-  gap: 0px;
+  align-items: center;
 }
 
 .primary-color {
@@ -219,4 +219,17 @@ strong {
 .cards-div {
   flex-wrap: wrap;
   gap: 40px;
+}
+
+.quote {
+  max-width: 950px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 24px;
+}
+
+.quote-from {
+  align-self: flex-end;
 }
