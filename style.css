@@ -233,3 +233,29 @@ strong {
 .quote-from {
   align-self: flex-end;
 }
+
+.careers-div {
+  padding: 64px;
+}
+
+.container {
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.career-container {
+  max-width: 600px;
+  margin: 0px 40px;
+}
+
+.footer {
+  display: flex;
+  min-height: 80px;
+  justify-content: center;
+  align-items: center;
+}
