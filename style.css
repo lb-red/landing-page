@@ -10,6 +10,7 @@ body {
   font-size: 18px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 button {
@@ -235,7 +236,10 @@ strong {
 }
 
 .careers-div {
-  padding: 64px;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -248,9 +252,14 @@ strong {
   border-radius: 16px;
 }
 
+.careers-div {
+  padding: 8px;
+}
+
 .career-container {
-  max-width: 600px;
+  max-width: 530px;
   margin: 0px 40px;
+  flex: 1;
 }
 
 .footer {
@@ -258,4 +267,8 @@ strong {
   min-height: 80px;
   justify-content: center;
   align-items: center;
+}
+
+.btn-career {
+  margin: 0px 40px;
 }
